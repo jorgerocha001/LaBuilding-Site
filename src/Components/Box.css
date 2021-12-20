@@ -1,0 +1,26 @@
+.BoxContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40vw;
+    margin-left: 15.5vw;
+    margin-top: 30.5vh;
+}
+.BoxInside{
+    color: #F5F5F5;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    width: 25vw;
+    height: 15.0vh;
+}
+.FullContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.RightBoxContainer{
+    margin-top: 30vh;
+    width: 17vw;
+    height: 26vh;
+    background-color: grey;
+}
