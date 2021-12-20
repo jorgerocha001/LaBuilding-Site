@@ -1,0 +1,29 @@
+.CardContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5vh;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #FFFFFF;
+    background-color: #151515;
+    width: 15vw;
+    height: 28vh;
+    margin-left: 1.7vw;
+    margin-bottom: 1.7vw;
+}
+.CardInsideContainer{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 11vw;
+    height: 13vh;
+    
+}
+.CardTitle{
+    margin-top: -4.5vh;
+    margin-bottom: 4vh;
+    font-size: 1.5rem;
+    color:#EE5508;
+}

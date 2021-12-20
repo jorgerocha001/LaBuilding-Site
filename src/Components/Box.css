@@ -1,12 +1,12 @@
 .BoxContainer{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     width: 40vw;
     margin-left: 15.5vw;
     margin-top: 30.5vh;
 }
-.BoxInside{
+.TextBoxInside{
     color: #F5F5F5;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
@@ -14,13 +14,24 @@
     height: 15.0vh;
 }
 .FullContainer{
+    margin-left: 7vw;
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 .RightBoxContainer{
-    margin-top: 30vh;
     width: 17vw;
     height: 26vh;
     background-color: grey;
+    margin-left: 1.8vw;
+}
+.BoxInsideContainer{
+    display: flex;
+    flex-direction: column;
+}
+.LeftBoxContainer{
+    width: 17vw;
+    height: 26vh;
+    background-color: grey;
+    margin-right: 1.8vw;
 }

@@ -1,70 +1,19 @@
-# Getting Started with Create React App
+# h1 Fase inicial
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# h2 Atenção, leve em consideração essas informações:
 
-## Available Scripts
+# h3 **Instale o Yarn**
+Nesse projeto, eu (André), inicializei o react-app pelo yarn. Possui algumas diferenças, mas no final, é a mesma coisa que o npm, porém mais rápido. Contudo, será necessário instalar o Yarn por fora. Você pode instalar por esse link: https://classic.yarnpkg.com/lang/en/docs/install/#windows-stable
+Recomendo fazerem a instalação completa no windows. Com o Yarn instalado, basta rodar a aplicação com **yarn start**.
 
-In the project directory, you can run:
+#h3 **Organização das Pastas**
 
-### `yarn start`
+Criei algumas pastas para facilitar a organização do projeto. Nem todo mundo segue esse padrão, inclusive, podemos mudar se a equipe não se adaptar a esse formato. Mas de todo modo, é bem intuitivo. A pasta _Components_ conterá todos os componentes que poderão ser reutilizados mais de uma vez. Em seguida, existe a pasta _Pages_ que armazenará todas as páginas que existirão no nosso site. Por enquanto, temos apenas a _Home_. Note que Todos os componentes da Home, desde o **_jsx_** até o **_css_** ficarão dentro da pasta _Home_. Isso irá facilitar na hora de ver o que está rodando dentro das páginas.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+#h3 **Responsividade**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Apenas relembrando, busque utilizar as unidades de medida **vh** e **vw**, isso facilitará na responsividade do site.Eu sei que é beeeem chamativo utilizar o **css** que o Figma oferece, entretanto, será muito trabalhoso ajeitar as telas utilizando **px** como medida. É bem simples utilizar **vh** e **vw**. 1 **vh** = 1/100 da altura do viewport da página. Então se a altura do navegador é de **1000px**, _1**vh**_ = **10px**. Da mesma maneira irá ocorrer com o **vw**.
 
-### `yarn test`
+#h3 **React-Router-DOM**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Quem for fazer as rotas para outras páginas, talvez será necessário instalar o pacote de rotas do react, o **React-Router-DOM**. Quando fizerem essa implementação, todos desenvolvedores terão que instalar esse pacote no projeto. Do contrário, a inicialização irá dar um erro.
