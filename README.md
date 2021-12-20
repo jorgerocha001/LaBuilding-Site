@@ -1,8 +1,8 @@
 #  Fase inicial
 
-## h2 Atenção, leve em consideração essas informações:
+## Atenção, leve em consideração essas informações:
 
-### h3 **Instale o Yarn**
+### **Instale o Yarn**
 Nesse projeto, eu (André), inicializei o react-app pelo yarn. Possui algumas diferenças, mas no final, é a mesma coisa que o npm, porém mais rápido. Contudo, será necessário instalar o Yarn por fora. Você pode instalar por esse link: https://classic.yarnpkg.com/lang/en/docs/install/#windows-stable
 Recomendo fazerem a instalação completa no windows. Com o Yarn instalado, basta rodar a aplicação com **yarn start**.
 
