@@ -7,26 +7,29 @@ export default function Box(props){
             <div className='BoxContainer'>
                 {props.reverse === false ? (
                     <>
+                        <div className="ControlContainer">
                         <div className='LeftBoxContainer'>
-
                         </div>
                         <div className='BoxInsideContainer'>
-                            <h1>{props.title}</h1>
+                            <h1 className='titleprops'>{props.title}</h1>
                             <div className='TextBoxInside'>
                                 <p>{props.text}</p>
                             </div>
                         </div>
+                        </div>
                 </>
                 ): (
                     <>
-                        <div className='BoxInsideContainer'>
-                            <h1>{props.title}</h1>
-                                <div className='TextBoxInside'>
-                                    <p>{props.text}</p>
+                        <div className="ControlContainer">
+                            <div className='BoxInsideContainer2'>
+                                <h1 className='titleprops'>{props.title}</h1>
+                                    <div className='TextBoxInside'>
+                                        <p>{props.text}</p>
+                                    </div>
                                 </div>
+                            <div className='RightBoxContainer'>
                             </div>
-                        <div className='RightBoxContainer'>
-                    </div>
+                        </div>
                     </>
                 )}
             </div>
