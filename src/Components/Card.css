@@ -27,3 +27,53 @@
     font-size: 1.5rem;
     color:#EE5508;
 }
+@media(max-width: 1024px){
+    .CardContainer{
+        width: 21vw;
+        height: 50vh;
+    }
+    .CardTitle{
+        margin-top: -20.5vh;
+        margin-bottom: 5vh;
+        font-size: 1.5rem;
+        color:#EE5508;
+    }
+}
+@media(max-width: 700px){
+    .CardContainer{
+        width: 50vw;
+        height: 50vh;
+        margin-right: 10.5vw;
+    }
+    .CardTitle{
+        margin-top: -5.5vh;
+        margin-bottom: 4vh;
+        font-size: 2.0rem;
+        color:#EE5508;
+    }
+    .CardInsideContainer{
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        width: 40vw;
+        height: 30vh;
+        font-size: 1.1rem;
+    }
+}
+@media(max-width: 375px){
+    .CardContainer{
+        width: 65vw;
+        height: 30vh;
+        margin-bottom: 2vh;
+    }
+    .CardInsideContainer{
+        width: 60vw;
+        height: 15vh;
+        font-size: 1.1rem;
+    }
+    .CardTitle{
+        margin-top: -1.0vh;
+        font-size: 2.0rem;
+        color:#EE5508;
+    }
+}
