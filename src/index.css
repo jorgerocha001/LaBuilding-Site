@@ -1,3 +1,11 @@
+:root{
+--fundo: #0B0B0B;
+--neon:  #EE5508;
+--branco:#FAFAFA;
+--fontes: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
