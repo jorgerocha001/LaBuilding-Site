@@ -1,7 +1,7 @@
 import {useState} from 'react'
 import './Navbar.css'
 import logo from '../images/lb-logo.png'
-import ReorderIcon from '@material-ui/icons/Reorder'
+import MenuIcon from '@material-ui/icons/Menu'
 
 function Navbar(){
     const [showLinks, setShowLinks] = useState(false);
@@ -23,7 +23,7 @@ function Navbar(){
                 <div className="newsletter">
                     <a href='/'>NEWSLETTER</a>
                 </div>
-                <button onClick={()=>setShowLinks(!showLinks)}> <ReorderIcon/> </button>
+                <button onClick={()=>setShowLinks(!showLinks)}> <MenuIcon/> </button>
         </header>
 )
 
