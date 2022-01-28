@@ -7,30 +7,6 @@ h1{
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
 }
-.title{
-    font-weight: 400;
-}
-.title2{
-    margin-left: 0.9vw;
-    font-weight: 700;
-    font-style: bold;
-}
-.titleContainer{
-    margin-left: 8.5vw;
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 0px;
-}
-.LineTitle{
-    position:relative;
-    width: 80%;
-    max-width: 78vw;
-    height: 0px;
-    margin-left: 20.5vw;
-    margin-top: -2.1vh;
-    border: 2px solid #EE5508;
-    transform: rotate(-0.07deg);
-}
 .ContentContainer{
     display: flex;
     flex-direction: column;
@@ -42,33 +18,18 @@ h1{
     flex-direction: row;
     justify-content: center;
 }
-@media(max-width: 1680px){
-    .LineTitle{
-        margin-left: 22.4vw;
-    }
-}
+
 @media(max-width: 1440px){
-    .LineTitle{
-        margin-left: 24.5vw;
-        width: 74.8%;
-    }
     .CardsContainer{
         margin-left: 10vw;
     }
 }
 @media(max-width: 1024px){
-    .LineTitle{
-        margin-left: 30.6vw;
-        width: 68.5%;
-    }
     .CardsContainer{
         margin-bottom: 10vw;
     }
 }
-@media(max-width: 700px){
-    .LineTitle{
-        margin-left: 22.4vw;
-    }
+@media(max-width: 900px){
     .CardsContainer{
         display: flex;
         margin-top: 20vh;
@@ -83,19 +44,5 @@ h1{
         align-items: center;
     }
 }
-@media(max-width:500px){
-    .LineTitle{
-        margin-left: 9vw;
-        width: 65%;
-    }
-}
-@media(max-width:375px){
-    .titleContainer{
-        margin-left: 8.5vw;
-        display: flex;
-        flex-direction: row;
-        margin-bottom: 2px;
-        font-size: 0.7rem;
-    }
-}
+
 

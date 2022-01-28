@@ -1,7 +1,8 @@
-import React from 'react'
-import Box from '../../../Components/Box'
-import Card from '../../../Components/Card'
-import './About.css'
+import React from 'react';
+import Box from '../../../Components/Box';
+import Card from '../../../Components/Card';
+import './About.css';
+import '../../../Components/Line.css';
 export default function About(){
     return(
         <>

@@ -1,5 +1,6 @@
 import React from 'react'
 import About from './About/About'
+import Abstract from './Abstract/Abstract'
 
 export default function Home(){
     //Aqui deve ser colocado todos os componentes da página Home.
@@ -8,6 +9,7 @@ export default function Home(){
             <h1>Home</h1>
             <h2>Menu</h2>
             <About/>
+            <Abstract/>
             <h3>Footer</h3>
         </>
     )
