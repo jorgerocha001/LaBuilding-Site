@@ -5,6 +5,7 @@ height: 100px;
 width: 100vw;
 background-color: var(--fundo);
 font-family: var(--fontes);
+position:sticky;
 
 }
 
@@ -15,15 +16,15 @@ flex:70%;
 
 }
 
-a{
+.links a{
 text-decoration: none;
 color: var(--branco);
 margin-left: 1em;
+font-weight: bold;
 }
 
-a:hover{
+.links a:hover{
 color: var(--neon);
-font-weight: bold;
 text-shadow: 1px 1px #fdfdfd33;
 }
 
@@ -50,7 +51,7 @@ font-weight: bold;
 background-color: var(--branco);
 }
 
-button{
+.botaonavbar{
 display: none;
 }
 
@@ -64,7 +65,7 @@ display:none;
 height: 80px;
 }
 
-a{
+.links a{
 margin-left: 0.9em;
 font-size: 0.9em;
 }
@@ -99,10 +100,16 @@ background-color: var(--fundo);
 }
 
 .hidden a{
-margin:0px 0px 10px 0px;
+padding: 0.5em;
 }
 
-button{
+.hidden a:hover{
+background-color: var(--cinza);
+text-align: center;
+width: 100vw;
+}
+
+.botaonavbar{
 display: flex;
 background-color: var(--neon);
 color: var(--branco);

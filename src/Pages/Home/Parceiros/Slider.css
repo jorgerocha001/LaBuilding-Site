@@ -1,0 +1,71 @@
+/* É essa aqui a variável que deve alterar caso adicione alguma imagem no SliderImages.jsx */
+:root{
+--qntitens:6;
+--padding:15px;
+}
+
+.slider{
+background-color: var(--fundo);
+margin: auto;
+position: relative;
+display:grid;
+place-items: center;
+width:100%;
+overflow:hidden;
+
+}
+
+
+.slider-track{
+display: flex;
+width: calc((250px + 2*var(--padding)) * var(--qntitens));
+animation: scroll 40s linear infinite;
+}
+
+.slider-track:hover{
+animation-play-state: paused;
+}
+
+@keyframes scroll {
+    100%{
+    transform: translateX(calc( -1 * (250px + 2*var(--padding)) * var(--qntitens)));
+}
+}
+
+.slide{
+display:flex;
+align-items: center;
+padding:15px;
+perspective: 100px;
+
+}
+
+/* Aumentar quando pausa o mouse por cima */
+.slider img{
+transition: transform 1s;
+}
+
+.slider img:hover{
+transform:translateZ(10px);
+}
+
+/* Sombras laterais */
+.slider::before, .slider::after{
+background: linear-gradient(to right, var(--cinza) 0%, rgba(255,255,255,0) 100%);
+content: " ";
+height:100%;
+position: absolute;
+width:15%;
+z-index: 2;
+top: 0;
+}
+
+.slider::before{
+left: 0;
+}
+
+.slider::after{
+right: 0;
+transform: rotateZ(180deg);
+}
+

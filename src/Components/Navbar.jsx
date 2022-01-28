@@ -20,10 +20,10 @@ function Navbar(){
                     <a href='/' className='hidden-newsletter'>NEWSLETTER</a>
                 </div>
             </nav>
-                <div className="newsletter">
+                <div className="newsletter links">
                     <a href='/'>NEWSLETTER</a>
                 </div>
-                <button onClick={()=>setShowLinks(!showLinks)}> <MenuIcon/> </button>
+                <button className='botaonavbar' onClick={()=>setShowLinks(!showLinks)}> <MenuIcon/> </button>
         </header>
 )
 

@@ -1,0 +1,33 @@
+.geral{
+background-color: var(--fundo);
+font-family: var(--fontes);
+display:flex;
+}
+
+.title{
+display: inline-block;
+text-indent: 1em;
+}
+
+.title-bold{
+display: inline-flex;
+margin-left: 0.35em;
+font-style: bold;
+position: relative;
+text-align: left;
+border-bottom: 2px solid var(--neon);
+}
+
+.segunda-parte{
+display: flex;
+direction: row;
+flex-grow: 1;
+}
+
+.barrinha{
+border-bottom: 2px solid var(--neon);
+position:relative;
+width:100%;
+height:70%;
+left:0;
+}
