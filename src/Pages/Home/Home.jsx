@@ -7,7 +7,6 @@ export default function Home(){
     return(
         <>
             <h1>Home</h1>
-            <h2>Menu</h2>
             <About/>
             <Abstract/>
             <h3>Footer</h3>
