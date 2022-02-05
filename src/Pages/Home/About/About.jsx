@@ -3,15 +3,13 @@ import Box from '../../../Components/Box';
 import Card from '../../../Components/Card';
 import './About.css';
 import '../../../Components/Line.css';
+import Titles from "../../../Components/Titles";
+
 export default function About(){
     return(
         <>
             <div className='AboutContainer'>
-                <div className='titleContainer'>
-                    <h1 className='title'>Conheça quem</h1> 
-                    <h1 className='title2'>somos</h1>
-                </div>
-                    <hr className='LineTitle'/>
+                <Titles title={"Conheça quem"} titlebold={"somos"}></Titles>
                     <div className='AuxContainer'>
                         <div className='ContentContainer'>
                             <Box title="What is Lorem Ipsum"

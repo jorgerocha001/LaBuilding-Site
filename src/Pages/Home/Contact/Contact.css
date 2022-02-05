@@ -1,0 +1,133 @@
+.mainContact{
+    background-color: #0B0B0B;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.blackSquare{
+    background-color: white;
+}
+.orangeBlock{
+    background: #EE5508CC;
+    width: 30%;
+    height: 638px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid #EE5508CC;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+.Contact{
+    background-color: #0B0B0B;
+    margin-top: 12vh;
+}
+.titlee{
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FAFAFA;
+
+}
+.ig{
+    display: flex;
+    flex-direction: row;
+}
+.linkedin{
+    display: flex;
+    flex-direction: row;
+}
+a{
+    margin-top: 0px;
+    margin-right: 1.7vw;
+    text-decoration: none;
+    color: #FAFAFA;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+a:hover{
+    color: #0B0B0B;
+    transition: 0.5s;
+}
+.img_ig{
+    height: 150px;
+    width: 30%;
+    object-fit: cover;
+    margin-right: 1.4vw;
+    margin-left: 2vw;
+
+}
+.link{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 5vh;
+}
+.break{
+    display: flex;
+    flex-direction: column;
+}
+@media (max-width: 1200px){
+    .titlee{
+        margin-bottom: 50px;
+    }
+    a{
+        font-size: 20px;
+    }
+    .img_ig{
+        height: 100px;
+    }
+    .orangeBlock{
+        width: 50%;
+    }
+    
+}
+@media (max-width: 700px){
+    .titlee{
+       margin-bottom: 20px;
+    }
+    .img_ig{
+        height: 80px;
+    }
+    .mainContact{
+        flex-direction: column;
+        align-items: center;
+    }
+    .link{
+        flex-direction: column;
+    }
+    .orangeBlock{
+        width: 70%;
+    }
+    
+}
+@media(max-width:350px){
+    .Contact{
+        margin-top: 50vh;
+    }
+    .titlee{
+        font-size: 20px;
+    }
+    a{
+        font-size: 15px;
+    }
+    .img_ig{
+        height: 55px;
+    }
+    .orangeBlock{
+        width: 80%;
+    }
+}

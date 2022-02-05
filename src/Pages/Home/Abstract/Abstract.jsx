@@ -2,15 +2,12 @@ import React from 'react';
 import './Abstract.css';
 import Box from "../../../Components/Box"
 import '../../../Components/Line.css';
+import Titles from "../../../Components/Titles"
 
 export default function Abstract(){
     return(
         <div className='Abstract_Container'>
-            <div className='titleContainer'>
-                <h1 className='title'>Conheça nossa</h1> 
-                <h1 className='title2'>Comunidade</h1>
-            </div>
-            <hr className='LineTitle'/>
+            <Titles title={"Conheça nossa"} titlebold={"Comunidade"}></Titles>
             <div className='Box-Container'>
                 <Box 
                     title="What is Lorem Ipsum" 
